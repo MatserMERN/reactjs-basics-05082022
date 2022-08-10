@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Monokai-Midnight",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 2,
+    "files.associations": {
+         "*.js": "javascriptreact"
+    },
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "settingsSync.ignoredSettings": [],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "emmet.triggerExpansionOnTab": true,
+    "files.autoSave": "afterDelay"
+}
