@@ -181,7 +181,7 @@ or in the constructor of any child
 
 LifeCycle Methods 
 ------------------
--> static getDerivedFromError
+-> static getDerivedStateFromError
 -> componentDidCatch
 
 
