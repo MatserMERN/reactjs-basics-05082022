@@ -16,7 +16,7 @@ export class ProductApi extends Component {
     }
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>Product List</h1>
         <table className="table">
             <thead>

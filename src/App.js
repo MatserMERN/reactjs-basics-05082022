@@ -8,8 +8,20 @@ import CityAPI from "./11.ajax-calls/CityAPI";
 import PostAPI from "./11.ajax-calls/PostAPI";
 import ProductApi from "./11.ajax-calls/ProductApi";
 import ProductStoreApi from "./11.ajax-calls/ProductStoreApi";
+import StudentMongoAPI from "./11.ajax-calls/StudentMongoAPI";
+import StudentMongoApiFetch from "./11.ajax-calls/StudentMongoApiFetch";
 import UserApi from "./11.ajax-calls/UserApi";
 import UserApiOne from "./11.ajax-calls/UserApiOne";
+import Routing from "./12.routing/Routing";
+import ClassCounter from "./13.hooks/ClassCounter";
+import HookCounter from "./13.hooks/HookCounter";
+import HookUsingObject from "./13.hooks/HookUsingObject";
+import HookWithArray from "./13.hooks/HookWithArray";
+import HookWithData from "./13.hooks/HookWithData";
+import ParentOne from "./14.react-redux/ParentOne";
+import ParentThree from "./14.react-redux/ParentThree";
+import Student from "./14.react-redux/Student";
+import StudentOne from "./14.react-redux/StudentOne";
 // import { WelcomeOne } from "./1.components/2.class/WelcomeOne";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
@@ -43,7 +55,18 @@ function App() {
   }
   return (
     <div className="container">
-      <ProductStoreApi />
+      <Student />
+      <StudentOne />
+      {/* <ParentOne /> */}
+      {/* <HookWithData /> */}
+      {/* <HookWithArray /> */}
+      {/* <HookUsingObject /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <StudentMongoApiFetch /> */}
+      {/* <StudentMongoAPI /> */}
+      {/* <ProductStoreApi /> */}
       {/* <ProductApi /> */}
       {/* <UserApiOne /> */}
       {/* <UserApi /> */}
